@@ -80,12 +80,21 @@ wheels = [
 ]
 
 [[package]]
+name = "util"
+version = "0.1.0"
+source = { git = "https://github.com/mariomadproductions/py-util#0bb4cd2a649be69ab4ac6c1eee561a2a7d3ba443" }
+
+[[package]]
 name = "vimmhash"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "requests" },
+    { name = "util" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "requests", specifier = ">=2.34.2" }]
+requires-dist = [
+    { name = "requests", specifier = ">=2.34.2" },
+    { name = "util", git = "https://github.com/mariomadproductions/py-util" },
+]

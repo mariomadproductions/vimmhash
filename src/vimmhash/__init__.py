@@ -1,4 +1,4 @@
-from vimmhash import util
+import util
 import argparse
 import requests
 import itertools
