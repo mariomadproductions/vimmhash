@@ -17,4 +17,4 @@ requires = ["uv_build>=0.11.29,<0.12.0"]
 build-backend = "uv_build"
 
 [tool.uv.sources]
-util = { git = "https://github.com/mariomadproductions/py-util" }
+util = { git = "https://github.com/mariomadproductions/py-util", rev = "ed619ee67561dcf10ebd3ea360ccf0ef94963f51" }
